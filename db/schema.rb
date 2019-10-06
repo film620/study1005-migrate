@@ -13,6 +13,8 @@
 ActiveRecord::Schema.define(version: 2019_10_05_125711) do
 
   create_table "posts", force: :cascade do |t|
+    t.integer "age"
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

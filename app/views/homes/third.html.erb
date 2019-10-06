@@ -3,4 +3,7 @@
 <br><br>
 입력 전체 데이타는 아래와 같습니다. <br><br>
 
-<% @palldata %>
+<% @alldata.each do|x|%>
+<%=x.name %>
+<%=x.age%>
+<%end%>
