@@ -21,10 +21,7 @@ def second
 end
 
 def third
-    alldata=Post.new  
-    alldata.age=params[:age]
-    alldata.name=params[:name]
-    alldata.save
+   
     
    
     @alldata=Post.all
