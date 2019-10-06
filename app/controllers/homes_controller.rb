@@ -11,16 +11,19 @@ def second
     else
         @age="성인 가입대상입니다."
     end
+    
+    
+end
+
+def third
      alldata=Post.new  
     alldata.age = @age
+    
     alldata.save
     
    
     @alldata=Post.all
     
-end
-
-def third
     
 end
 
